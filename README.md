@@ -65,62 +65,7 @@
 
 Всі стилі легко налаштовуються через CSS змінні в файлі `styles.css`. Змініть значення змінних у секції `:root` для швидкого кастомізування дизайну.
 
-## Налаштування GitHub та GitHub Pages
+### Посилання 
+https://veprelax.github.io/simple-site-template/
 
-### Створення репозиторію на GitHub
-
-1. Створіть новий репозиторій на GitHub:
-   - Перейдіть на https://github.com/new
-   - Введіть назву репозиторію (наприклад, `simple-site-template`)
-   - Оберіть публічний або приватний доступ
-   - **НЕ** додавайте README, .gitignore або ліцензію (вони вже є в проєкті)
-   - Натисніть "Create repository"
-
-2. Завантажте файли до репозиторію:
-
-```bash
-# Ініціалізуйте git репозиторій (якщо ще не зроблено)
-git init
-
-# Додайте всі файли
-git add .
-
-# Створіть перший коміт
-git commit -m "Initial commit: Simple Site Template with responsive design"
-
-# Додайте віддалений репозиторій (замініть YOUR_USERNAME та YOUR_REPO на ваші дані)
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-
-# Завантажте файли
-git branch -M main
-git push -u origin main
-```
-
-### Налаштування GitHub Pages
-
-1. Перейдіть до налаштувань репозиторію:
-   - Відкрийте ваш репозиторій на GitHub
-   - Натисніть на вкладку "Settings"
-
-2. Увімкніть GitHub Pages:
-   - Прокрутіть до секції "Pages" в меню зліва
-   - У розділі "Source" оберіть "Deploy from a branch"
-   - Оберіть гілку "main" та папку "/ (root)"
-   - Натисніть "Save"
-
-3. Очікуйте розгортання:
-   - GitHub автоматично розгорне ваш сайт
-   - За кілька хвилин ваш сайт буде доступний за адресою:
-     `https://YOUR_USERNAME.github.io/YOUR_REPO/`
-
-### Посилання
-
-Після налаштування ви отримаєте два посилання:
-
-- **Репозиторій**: `https://github.com/YOUR_USERNAME/YOUR_REPO`
-- **GitHub Pages**: `https://YOUR_USERNAME.github.io/YOUR_REPO/`
-
-## Ліцензія
-
-Вільне використання для особистих та комерційних проєктів.
 
