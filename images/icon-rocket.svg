@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Корпус ракети -->
+  <path d="M32 8 L28 24 L36 24 Z" fill="#e74c3c" stroke="#333" stroke-width="2"/>
+  <rect x="28" y="24" width="8" height="20" rx="2" fill="#e74c3c" stroke="#333" stroke-width="2"/>
+  <!-- Вікно -->
+  <circle cx="32" cy="32" r="4" fill="#4a90e2" stroke="#333" stroke-width="1.5"/>
+  <!-- Крила -->
+  <path d="M28 28 L20 32 L28 36 Z" fill="#c0392b" stroke="#333" stroke-width="2"/>
+  <path d="M36 28 L44 32 L36 36 Z" fill="#c0392b" stroke="#333" stroke-width="2"/>
+  <!-- Полум'я -->
+  <path d="M28 44 L30 52 L32 48 L34 52 L36 44 Z" fill="#ff8c00" stroke="#333" stroke-width="1.5"/>
+  <path d="M30 48 L32 54 L34 48 Z" fill="#ffa500" stroke="#333" stroke-width="1"/>
+  <!-- Зірки -->
+  <path d="M12 16 L13 18 L15 18 L13.5 19.5 L14 22 L12 20.5 L10 22 L10.5 19.5 L9 18 L11 18 Z" fill="#ffd700"/>
+  <path d="M50 20 L50.5 21.5 L52 21.5 L50.75 22.5 L51 24 L50 23 L49 24 L49.25 22.5 L48 21.5 L49.5 21.5 Z" fill="#ffd700"/>
+</svg>
+

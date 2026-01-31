@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paletteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a8e6cf;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#ffd93d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b9d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Палітра -->
+  <path d="M32 8 C20 8 10 16 10 26 C10 32 14 36 18 36 C20 36 22 34 22 32 C22 28 26 24 32 24 C38 24 42 28 42 32 C42 34 44 36 46 36 C50 36 54 32 54 26 C54 16 44 8 32 8 Z" fill="url(#paletteGrad)" stroke="#333" stroke-width="2"/>
+  <!-- Кольорові краплі -->
+  <circle cx="24" cy="20" r="4" fill="#ff6b9d"/>
+  <circle cx="36" cy="18" r="4" fill="#4ecdc4"/>
+  <circle cx="40" cy="28" r="4" fill="#a8e6cf"/>
+  <circle cx="28" cy="30" r="4" fill="#ffd93d"/>
+  <!-- Ручка палітри -->
+  <rect x="30" y="40" width="4" height="16" rx="2" fill="#8b7355"/>
+  <ellipse cx="32" cy="58" rx="6" ry="2" fill="#8b7355"/>
+</svg>
+
